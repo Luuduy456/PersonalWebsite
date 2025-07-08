@@ -15,17 +15,39 @@
       </button>
     </header>
     <nav>
-      <a href="#">Home</a>
-      <a href="about.html">About</a>
-      <a href="#">Contact</a>
+      <a class="btn" href="#">Home</a>
+      <a class="btn" href="about.html">About</a>
+      <a class="btn" href="Contact.html">Contact</a>
+      <div class="dropdown">
+        <a class="btn dropdown-toggle" href="#" id="catalogDropdown">Catalog</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="catalog.html">Drawing Collection</a></li>
+          <li><a class="dropdown-item" href="Coding.html">Coding Projects</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
     </nav>
+
     <main>
       <section>
-        <article>
-          <h2>Recent Posts</h2>
-          <em>June 29th 2025</em>
-          <p>So this is where the post </p>
-        </article>
+        <h2 class="Recent-Posts">Recent Posts</h2>
+        <!-- From Uiverse.io by saidbl1 -->
+
+        <section>
+          <div class="inputBox">
+            <input
+              placeholder="Search. . ."
+              type="text"
+              id="tag-search"
+              required=""
+            />
+            <span>Tags</span>
+            <button class="search-Button" id="search-button">Search</button>
+          </div>
+          
+        </section>
+        <div id="post-list"></div>
+        
       </section>
       <section>
         <h2>Other Post</h2>

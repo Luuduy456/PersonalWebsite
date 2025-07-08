@@ -4,32 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me |My Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <button id="theme-toggle" aria-label="Toggle Dark Mode">
         <span id="toggle-icon">🌞</span>
       </button>
-      <h1>Thing About Me</h1>
+      <h1>Things About Me</h1>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a class="btn" href="index.html">Home</a>
+        <a class="btn" href="about.html">About</a>
+        <a class="btn" href="contact.html">Contact</a>
+        <div class="dropdown">
+          <a class="btn dropdown-toggle" href="#" id="catalogDropdown">Catalog Hub</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="catalog.html">Drawing Collection</a></li>
+            <li><a class="dropdown-item" href="#">Coding Projects</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
+      <section id="profile">
+        <img
+          src="https://dinopixel.com/preload/0223/-profile-pic-1676795544.png"
+          alt="Profile Picture"
+        />
+        <h2>Hi! I'm Luu</h2>
+        <p>
+          Welcome to my Profile I'm a self-taught coder on a mission to turn
+          ideas into digital reality. This blog is my sandbox where I share what
+          I’m learning and building—one post at a time.
+        </p>
+      </section>
       <section>
         <h2>About Me</h2>
         <p>
-          Hey, I'm Luu! welcome to my page again, anways thank you for visit my
-          page. So I'm on journey to learn and grow as a developer by building
-          this blog form ground up. I'm passionate about code, creatvity, and
-          sharing what i learn along the way.
+          welcome to my page again, anways thank you for visit my page. So I'm
+          on journey to learn and grow as a developer by building this blog form
+          ground up. I'm passionate about code, creatvity, and sharing what i
+          learn along the way.
         </p>
         <p>
           Outside of coding, I enjoy Drawing as well! sometimes i will post my
           painting in my blog if you guys interesting
+        </p>
+      </section>
+      <section>
+        <h2>My Journey</h2>
+        <p>
+          I started coding in 2023, not really knowing what to expect, and it has been an incredible journey so
+          far. From learning the basics of HTML and CSS to diving into JavaScript
+          and beyond, every step has been a new adventure.
+        </p>
+        <p>
+          This blog is a reflection of my growth as a developer, and I hope it
+          inspires others to embark on their own coding journeys.
         </p>
       </section>
     </main>
